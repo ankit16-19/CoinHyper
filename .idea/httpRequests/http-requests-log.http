@@ -1,0 +1,392 @@
+GET http://localhost:8080/update
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T021538.200.html
+
+###
+
+GET http://localhost:8080/update
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T021452.200.html
+
+###
+
+GET http://localhost:8080/update
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T021224.200.html
+
+###
+
+GET http://localhost:8080/update
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T021022.200.html
+
+###
+
+GET http://localhost:8080/update
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T020902.200.html
+
+###
+
+GET http://localhost:8080/update
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T020719.200.html
+
+###
+
+GET http://localhost:8080/update
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T020624.200.html
+
+###
+
+GET http://localhost:8080/update
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T020404.200.html
+
+###
+
+GET http://localhost:8080/tweets/ada
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T020150.200.json
+
+###
+
+GET http://localhost:8080/tweets/ada
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/update
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T015603.200.html
+
+###
+
+GET http://localhost:8080/update
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T015456.200.html
+
+###
+
+GET http://localhost:8080/update
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T015232.200.html
+
+###
+
+GET http://localhost:8080/tweets/eng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T013022.200.json
+
+###
+
+GET http://localhost:8080/tweets
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T013016.200.json
+
+###
+
+GET http://localhost:8080/coins/zrx
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T013004.200.json
+
+###
+
+GET http://localhost:8080/coins
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T012955.200.json
+
+###
+
+GET http://localhost:8080/allcoins
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/allcoins
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/coins
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T010242.200.json
+
+###
+
+GET http://localhost:8080/coin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T010240.404.html
+
+###
+
+GET http://localhost:8080/allcoins
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T124437.200.json
+
+###
+
+GET http://localhost:8080/allcoins
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T124403.500.html
+
+###
+
+GET http://localhost:8080/allcoins
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/uniquecoins
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T122242.200.json
+
+###
+
+GET http://localhost:8080/uniquecoins
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-18T122210.200.json
+
+###
+
+GET http://localhost:8080/uniquecoins
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T100913.200.json
+
+###
+
+GET http://localhost:8080/tweets
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T094635.200.json
+
+###
+
+GET http://localhost:8080/tweets/eng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T094627.200.json
+
+###
+
+GET http://localhost:8080/tweet/eng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T094559.404.html
+
+###
+
+GET http://localhost:8080/tweet/eng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T094555.404.html
+
+###
+
+GET http://localhost:8080/tweets/eng
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T094550.404.html
+
+###
+
+GET http://localhost:8080/tweets
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T094541.200.json
+
+###
+
+GET http://localhost:8080/tweets
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T094301.200.json
+
+###
+
+GET http://localhost:8080/coins/zrx
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T094204.200.json
+
+###
+
+GET http://localhost:8080/coins
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T094147.200.json
+
+###
+
+GET http://localhost:8080/coins/ZRX
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T094048.200.json
+
+###
+
+GET http://localhost:8080/coins/ZRX
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T093838.200.json
+
+###
+
+GET http://localhost:8080/coins/ENG
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T093651.200.json
+
+###
+
+GET http://localhost:8080/coins/2GIVE
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T093636.200.json
+
+###
+
+GET http://localhost:8080/coins
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T093614.200.json
+
+###
+
+GET http://localhost:8080/coins/ENG
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T093533.200.json
+
+###
+
+GET http://localhost:8080/coins/ZRX
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T093335.200.json
+
+###
+
+GET http://localhost:8080/coins
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T093326.200.json
+
+###
+
+GET http://localhost:8080/coins/XMR
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T093318.200.json
+
+###
+
+GET http://localhost:8080/coins/xmr
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T093312.200.json
+
+###
+
+GET http://localhost:8080/coins/zrx
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T093258.200.json
+
+###
+
+GET http://localhost:8080/coins/zrx
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T093012.500.html
+
+###
+
+GET http://localhost:8080/coins/zrx
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T092949.500.html
+
+###
+
+GET http://localhost:8080/coins/zrx
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-17T092759.500.html
+
+###
+
