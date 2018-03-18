@@ -16,9 +16,9 @@ module.exports = function(app) {
     });
     // ALL Tweets
     app.get('/tweets', function (req, res) {
-        tweets(sqldb,function (tweets) {
-            tweets.tweets.reverse();
-            res.json(tweets)
+        tweets(sqldb,function (t) {
+            t.tweets.reverse();
+            res.json(t)
         })
     });
     // Tweet data
