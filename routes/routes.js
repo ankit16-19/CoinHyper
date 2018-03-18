@@ -47,7 +47,9 @@ module.exports = function(app) {
     });
     // update all coins and uniquecoins tweet to firebase
     app.get('/update' , function (req, res) {
+        // All coins update to firebase
         firebaseAllCoins(sqldb);
+        // update uniquecoins tweets to firebase;
         firebaseTweets(sqldb);
         res.send("updated");
     })
