@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="89e9c2bb-aed2-4426-9ab7-868913d4597d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/controller/tweets.js" afterPath="$PROJECT_DIR$/controller/tweets.js" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/routes/routes.js" afterPath="$PROJECT_DIR$/routes/routes.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +28,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tweets.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tweets.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/tweets.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="-36">
               <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -70,12 +79,12 @@
         <option value="$PROJECT_DIR$/controller/firebase/uniquecoins.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/controller/firebase/firebase.js" />
-        <option value="$PROJECT_DIR$/routes/routes.js" />
         <option value="$PROJECT_DIR$/sqlitedb/db.js" />
         <option value="$PROJECT_DIR$/controller/firebase/allcoins.js" />
         <option value="$PROJECT_DIR$/controller/tweet.js" />
         <option value="$PROJECT_DIR$/controller/firebase/tweets.js" />
         <option value="$PROJECT_DIR$/controller/tweets.js" />
+        <option value="$PROJECT_DIR$/routes/routes.js" />
       </list>
     </option>
   </component>
@@ -134,6 +143,11 @@
               <item name="coinhyper" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
               <item name="firebase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coinhyper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coinhyper" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coinhyper" type="b2602c69:ProjectViewProjectNode" />
@@ -509,7 +523,7 @@
       <updated>1521295609047</updated>
       <workItem from="1521295610534" duration="18584000" />
       <workItem from="1521320745924" duration="819000" />
-      <workItem from="1521340657765" duration="262000" />
+      <workItem from="1521340657765" duration="583000" />
     </task>
     <task id="LOCAL-00001" summary="file upload">
       <created>1521319763112</created>
@@ -525,11 +539,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521320575865</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added tweets array">
+      <created>1521340986392</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1521340986392</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19665000" />
+    <option name="totallyTimeSpent" value="19986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -609,7 +630,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="file upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="file upload" />
+    <MESSAGE value="added tweets array" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tweets array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -657,6 +679,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -732,13 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-498">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/firebase/allcoins.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -756,8 +772,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/tweets.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="-36">
           <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           <folding />
         </state>
       </provider>
