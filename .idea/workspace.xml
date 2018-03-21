@@ -1,64 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89e9c2bb-aed2-4426-9ab7-868913d4597d" name="Default" comment="firebase quota overflow fixed">
-      <change beforePath="" afterPath="$PROJECT_DIR$/controller/moveUpdatedTweets.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T092759.500.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T092949.500.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093012.500.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093258.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093312.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093318.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093326.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093335.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093533.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093614.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093636.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093651.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093838.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094048.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094147.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094204.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094301.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094541.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094550.404.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094555.404.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094559.404.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094627.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094635.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T100913.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T010240.404.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T010242.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T012955.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T013004.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T013016.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T013022.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T015232.200.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T015456.200.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T015603.200.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T020150.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T020404.200.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T020624.200.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T020719.200.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T020902.200.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T021022.200.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T021224.200.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T021452.200.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T021538.200.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T122210.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T122242.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T124403.500.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T124437.200.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" />
+    <list default="true" id="89e9c2bb-aed2-4426-9ab7-868913d4597d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/controller/coins.js" afterPath="$PROJECT_DIR$/controller/coins.js" />
       <change beforePath="$PROJECT_DIR$/controller/firebase/allcoins.js" afterPath="$PROJECT_DIR$/controller/firebase/allcoins.js" />
-      <change beforePath="$PROJECT_DIR$/controller/firebase/tweets.js" afterPath="$PROJECT_DIR$/controller/firebase/tweets.js" />
-      <change beforePath="$PROJECT_DIR$/controller/tweet.js" afterPath="$PROJECT_DIR$/controller/tweet.js" />
-      <change beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
       <change beforePath="$PROJECT_DIR$/routes/routes.js" afterPath="$PROJECT_DIR$/routes/routes.js" />
-      <change beforePath="$PROJECT_DIR$/sqlitedb/crypto_tweet_db.db" afterPath="$PROJECT_DIR$/sqlitedb/crypto_tweet_db.db" />
-      <change beforePath="$PROJECT_DIR$/sqlitedb/db.js" afterPath="$PROJECT_DIR$/sqlitedb/db.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -93,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+            <state relative-caret-position="127">
+              <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -106,14 +53,24 @@
       <file leaf-file-name="allcoins.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/firebase/allcoins.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+            <state relative-caret-position="504">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="coins.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/coins.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sqlitedb/db.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
@@ -156,14 +113,14 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/controller/firebase/firebase.js" />
         <option value="$PROJECT_DIR$/controller/tweets.js" />
-        <option value="$PROJECT_DIR$/controller/coins.js" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/controller/firebase/allcoins.js" />
-        <option value="$PROJECT_DIR$/routes/routes.js" />
         <option value="$PROJECT_DIR$/controller/moveUpdatedTweets.js" />
         <option value="$PROJECT_DIR$/controller/tweet.js" />
         <option value="$PROJECT_DIR$/controller/firebase/tweets.js" />
         <option value="$PROJECT_DIR$/sqlitedb/db.js" />
+        <option value="$PROJECT_DIR$/controller/coins.js" />
+        <option value="$PROJECT_DIR$/controller/firebase/allcoins.js" />
+        <option value="$PROJECT_DIR$/routes/routes.js" />
       </list>
     </option>
   </component>
@@ -684,7 +641,7 @@
       <workItem from="1521295610534" duration="18584000" />
       <workItem from="1521320745924" duration="819000" />
       <workItem from="1521340657765" duration="4184000" />
-      <workItem from="1521471927222" duration="26675000" />
+      <workItem from="1521471927222" duration="26962000" />
     </task>
     <task id="LOCAL-00001" summary="file upload">
       <created>1521319763112</created>
@@ -721,11 +678,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521341757806</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="firebase quota overflow fixed">
+      <created>1521617467565</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1521617467565</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50262000" />
+    <option name="totallyTimeSpent" value="50549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -808,7 +772,8 @@
     <MESSAGE value="added tweets array" />
     <MESSAGE value="tweets array reverse" />
     <MESSAGE value="comment added" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment added" />
+    <MESSAGE value="firebase quota overflow fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="firebase quota overflow fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -939,14 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/coins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/firebase/uniquecoins.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -979,18 +936,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/routes.js">
+    <entry file="file://$PROJECT_DIR$/controller/coins.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        <state relative-caret-position="252">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/firebase/allcoins.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        <state relative-caret-position="504">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -999,6 +956,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
           <folding />
         </state>
       </provider>

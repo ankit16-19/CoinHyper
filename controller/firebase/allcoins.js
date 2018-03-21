@@ -1,10 +1,9 @@
 let db = require('./firebase.js').db();
 let coins = require('../coins');
 
-module.exports = function(sqldb) {
+module.exports = function(sqlitedb) {
     // All coins
-    coins(sqldb, function(coins) {
-        let sqlitedb = sqldb();
+    coins(sqlitedb, function(coins) {
         // Update each coin in firebase
         coins.forEach(coin => {
             console.log('coin',  ' => ',  coin.coin_name);
@@ -23,11 +22,6 @@ module.exports = function(sqldb) {
                     merge: true
                 });
         });
-        sqlitedb.close((err) => {
-            if (err) {
-                return console.error(err.message);
-            }
-            console.log('Close the database connection:allcoins.');
-        });
+
     })
 };

@@ -50,7 +50,7 @@ module.exports = function(app) {
     app.get('/update' , function (req, res) {
         let db = sqldb();
         // All coins update to firebase
-        // firebaseAllCoins(sqldb);
+        firebaseAllCoins(db);
         // update uniquecoins tweets to firebase;
         firebaseTweets(db, function () {
             moveTweets(db,function () {
