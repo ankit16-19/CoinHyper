@@ -9,12 +9,11 @@ module.exports = function (sqldb,callback) {
         let lastCoin = coins[coins.length - 1];
         console.log('Unique Coins Request complete');
         coins.forEach(coin => {
-            console.log('process for ',coin,' started');
             // Tweets of unique coin
             tweet(sqldb, coin, function (tweets) {
+                let lastTweet = tweets[tweets.length - 1];
                 console.log('getting tweets for the ',coin);
                 if(!(tweets.length === 0)){
-                    let lastTweet = tweets[tweets.length - 1];
                     tweets.forEach(tweet => {
                         if(tweet){
                             // split by '/'
@@ -50,8 +49,8 @@ module.exports = function (sqldb,callback) {
                           });
 
                         }else{
-                            console.log('tweet empty for ',coin)
-                            if(coin ===lastCoin && tweet.url === lastTweet.url){
+                            console.log('tweet empty for ',coin);
+                            if(coin === lastCoin){
                                 console.info('firebase update complete');
                                 callback()
                             }

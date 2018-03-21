@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89e9c2bb-aed2-4426-9ab7-868913d4597d" name="Default" comment="">
+    <list default="true" id="89e9c2bb-aed2-4426-9ab7-868913d4597d" name="Default" comment="error handling for firebase tweets">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/controller/firebase/tweets.js" afterPath="$PROJECT_DIR$/controller/firebase/tweets.js" />
-      <change beforePath="$PROJECT_DIR$/controller/tweet.js" afterPath="$PROJECT_DIR$/controller/tweet.js" />
-      <change beforePath="$PROJECT_DIR$/routes/routes.js" afterPath="$PROJECT_DIR$/routes/routes.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,8 +51,8 @@
       <file leaf-file-name="tweets.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/firebase/tweets.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="56" column="29" lean-forward="false" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+            <state relative-caret-position="273">
+              <caret line="52" column="40" lean-forward="false" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -629,7 +627,7 @@
       <workItem from="1521320745924" duration="819000" />
       <workItem from="1521340657765" duration="4184000" />
       <workItem from="1521471927222" duration="29293000" />
-      <workItem from="1521621987357" duration="1065000" />
+      <workItem from="1521621987357" duration="1379000" />
     </task>
     <task id="LOCAL-00001" summary="file upload">
       <created>1521319763112</created>
@@ -687,11 +685,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521622658885</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="error handling for firebase tweets">
+      <created>1521623090545</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1521623090545</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53945000" />
+    <option name="totallyTimeSpent" value="54259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-330" y="404" width="1366" height="741" extended-state="6" />
@@ -777,7 +782,8 @@
     <MESSAGE value="firebase quota overflow fixed" />
     <MESSAGE value="allcoins db connection centeralized" />
     <MESSAGE value="new route added" />
-    <option name="LAST_COMMIT_MESSAGE" value="new route added" />
+    <MESSAGE value="error handling for firebase tweets" />
+    <option name="LAST_COMMIT_MESSAGE" value="error handling for firebase tweets" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -993,8 +999,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/firebase/tweets.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="56" column="29" lean-forward="false" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+        <state relative-caret-position="273">
+          <caret line="52" column="40" lean-forward="false" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
           <folding />
         </state>
       </provider>
