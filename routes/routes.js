@@ -64,5 +64,18 @@ module.exports = function(app) {
                 });
             })
         });
+    });
+    app.get('/move', function (req, res) {
+        let db = sqldb()
+        moveTweets(db,function () {
+            // closing database connection
+            db.close((err) => {
+                if (err) {
+                    return console.error(err.message);
+                }
+                console.log('Close the database connection:move.');
+                res.send("moved");
+            });
+        })
     })
 };

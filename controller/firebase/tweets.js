@@ -9,10 +9,10 @@ module.exports = function (sqldb,callback) {
         let lastCoin = coins[coins.length - 1];
         console.log('Unique Coins Request complete');
         coins.forEach(coin => {
-            console.log('process for each coin started');
+            console.log('process for ',coin,' started');
             // Tweets of unique coin
             tweet(sqldb, coin, function (tweets) {
-                console.log('getting tweets for the coin');
+                console.log('getting tweets for the ',coin);
                 if(tweets){
                     let lastTweet = tweets[tweets.length - 1];
                     tweets.forEach(tweet => {
@@ -42,7 +42,7 @@ module.exports = function (sqldb,callback) {
                           sqldb.serialize(function() {
                                 // changing status to True for the coins that are updated on firebase
                                 sqldb.run(`UPDATE latest_tweets SET status='True'  WHERE url = '${tweet.url}'`,function () {
-                                    if(coin ===lastCoin && tweet.coin_symbol === lastTweet.coin_symbol){
+                                    if(coin ===lastCoin && tweet.url === lastTweet.url){
                                         console.info('firebase update complete');
                                         callback()
                                     }
