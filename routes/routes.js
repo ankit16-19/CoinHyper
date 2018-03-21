@@ -53,16 +53,14 @@ module.exports = function(app) {
         firebaseAllCoins(db);
         // update uniquecoins tweets to firebase;
         firebaseTweets(db, function () {
-            moveTweets(db,function () {
-                // closing database connection
-                db.close((err) => {
-                    if (err) {
-                        return console.error(err.message);
-                    }
-                    console.log('Close the database connection:tweets.');
-                    res.send("updated");
-                });
-            })
+            // closing database connection
+            db.close((err) => {
+                if (err) {
+                    return console.error(err.message);
+                }
+                console.log('Close the database connection:tweets.');
+                res.send("updated");
+            });
         });
     });
     app.get('/move', function (req, res) {

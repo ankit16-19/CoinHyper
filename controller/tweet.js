@@ -1,5 +1,4 @@
 module.exports = function (sqldb, coin,callback) {
-    console.log('Getting tweet for coin');
      let db = sqldb;
     let sql = `SELECT *                 
 	       FROM latest_tweets WHERE coin_symbol LIKE '${coin}' AND status='False'`       ; // tweets of a coin

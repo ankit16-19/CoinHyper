@@ -13,7 +13,7 @@ module.exports = function (sqldb,callback) {
             // Tweets of unique coin
             tweet(sqldb, coin, function (tweets) {
                 console.log('getting tweets for the ',coin);
-                if(tweets){
+                if(!(tweets.length === 0)){
                     let lastTweet = tweets[tweets.length - 1];
                     tweets.forEach(tweet => {
                         if(tweet){
@@ -51,6 +51,10 @@ module.exports = function (sqldb,callback) {
 
                         }else{
                             console.log('tweet empty for ',coin)
+                            if(coin ===lastCoin && tweet.url === lastTweet.url){
+                                console.info('firebase update complete');
+                                callback()
+                            }
                         }
                     })
                 }else{
