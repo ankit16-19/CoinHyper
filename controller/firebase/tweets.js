@@ -50,14 +50,14 @@ module.exports = function (sqldb,callback) {
 
                         }else{
                             console.log('tweet empty for ',coin);
-                            if(coin === lastCoin){
-                                console.info('firebase update complete');
-                                callback()
-                            }
                         }
                     })
                 }else{
                     console.log('tweet for coin', coin, 'not found');
+                    if(coin === lastCoin){
+                        console.info('firebase update complete');
+                        callback()
+                    }
                 }
             })
         });
