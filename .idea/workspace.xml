@@ -1,9 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89e9c2bb-aed2-4426-9ab7-868913d4597d" name="Default" comment="">
+    <list default="true" id="89e9c2bb-aed2-4426-9ab7-868913d4597d" name="Default" comment="firebase quota overflow fixed">
+      <change beforePath="" afterPath="$PROJECT_DIR$/controller/moveUpdatedTweets.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T092759.500.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T092949.500.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093012.500.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093258.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093312.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093318.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093326.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093335.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093533.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093614.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093636.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093651.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T093838.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094048.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094147.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094204.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094301.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094541.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094550.404.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094555.404.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094559.404.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094627.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T094635.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-17T100913.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T010240.404.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T010242.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T012955.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T013004.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T013016.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T013022.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T015232.200.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T015456.200.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T015603.200.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T020150.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T020404.200.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T020624.200.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T020719.200.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T020902.200.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T021022.200.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T021224.200.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T021452.200.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T021538.200.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T122210.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T122242.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T124403.500.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-03-18T124437.200.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/controller/coins.js" afterPath="$PROJECT_DIR$/controller/coins.js" />
+      <change beforePath="$PROJECT_DIR$/controller/firebase/allcoins.js" afterPath="$PROJECT_DIR$/controller/firebase/allcoins.js" />
+      <change beforePath="$PROJECT_DIR$/controller/firebase/tweets.js" afterPath="$PROJECT_DIR$/controller/firebase/tweets.js" />
+      <change beforePath="$PROJECT_DIR$/controller/tweet.js" afterPath="$PROJECT_DIR$/controller/tweet.js" />
+      <change beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
       <change beforePath="$PROJECT_DIR$/routes/routes.js" afterPath="$PROJECT_DIR$/routes/routes.js" />
+      <change beforePath="$PROJECT_DIR$/sqlitedb/crypto_tweet_db.db" afterPath="$PROJECT_DIR$/sqlitedb/crypto_tweet_db.db" />
+      <change beforePath="$PROJECT_DIR$/sqlitedb/db.js" afterPath="$PROJECT_DIR$/sqlitedb/db.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +76,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -31,18 +86,38 @@
       <file leaf-file-name="tweets.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/tweets.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-36">
+            <state relative-caret-position="21">
               <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="50" column="32" lean-forward="false" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+            <state relative-caret-position="169">
+              <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="allcoins.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/firebase/allcoins.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sqlitedb/db.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,24 +142,28 @@
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response165.html" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/controller/alltweets.js" />
         <option value="$PROJECT_DIR$/controller/firebase/serviceAccountKey.json" />
-        <option value="$PROJECT_DIR$/controller/coins.js" />
         <option value="$PROJECT_DIR$/controller/coin.js" />
         <option value="$PROJECT_DIR$/controller/firebase/uniquecoins.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/controller/firebase/firebase.js" />
-        <option value="$PROJECT_DIR$/sqlitedb/db.js" />
+        <option value="$PROJECT_DIR$/controller/tweets.js" />
+        <option value="$PROJECT_DIR$/controller/coins.js" />
+        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/controller/firebase/allcoins.js" />
+        <option value="$PROJECT_DIR$/routes/routes.js" />
+        <option value="$PROJECT_DIR$/controller/moveUpdatedTweets.js" />
         <option value="$PROJECT_DIR$/controller/tweet.js" />
         <option value="$PROJECT_DIR$/controller/firebase/tweets.js" />
-        <option value="$PROJECT_DIR$/controller/tweets.js" />
-        <option value="$PROJECT_DIR$/routes/routes.js" />
+        <option value="$PROJECT_DIR$/sqlitedb/db.js" />
       </list>
     </option>
   </component>
@@ -104,9 +183,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-2" />
     <option name="y" value="27" />
-    <option name="width" value="1366" />
-    <option name="height" value="741" />
+    <option name="width" value="1346" />
+    <option name="height" value="562" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -126,6 +206,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,8 +240,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,6 +253,86 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:16192" />
+          <option name="urlPath" value="/update" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:16192" />
+          <option name="urlPath" value="/coins" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:16192" />
+          <option name="urlPath" value="/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:16192" />
+          <option name="urlPath" value="/tweets" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="GET" />
           <option name="urlBase" value="http://localhost:8080" />
@@ -523,7 +683,8 @@
       <updated>1521295609047</updated>
       <workItem from="1521295610534" duration="18584000" />
       <workItem from="1521320745924" duration="819000" />
-      <workItem from="1521340657765" duration="1088000" />
+      <workItem from="1521340657765" duration="4184000" />
+      <workItem from="1521471927222" duration="26675000" />
     </task>
     <task id="LOCAL-00001" summary="file upload">
       <created>1521319763112</created>
@@ -553,31 +714,38 @@
       <option name="project" value="LOCAL" />
       <updated>1521341256785</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="comment added">
+      <created>1521341757806</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1521341757806</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20491000" />
+    <option name="totallyTimeSpent" value="50262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1325391" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3871951" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976827" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976827" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4201389" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.092987806" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36979166" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -639,13 +807,38 @@
     <MESSAGE value="file upload" />
     <MESSAGE value="added tweets array" />
     <MESSAGE value="tweets array reverse" />
-    <option name="LAST_COMMIT_MESSAGE" value="tweets array reverse" />
+    <MESSAGE value="comment added" />
+    <option name="LAST_COMMIT_MESSAGE" value="comment added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/tweets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/firebase/tweets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="54" lean-forward="false" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -666,6 +859,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="27" column="54" lean-forward="false" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -706,32 +900,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/coin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/coins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/firebase/uniquecoins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -742,54 +915,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sqlitedb/db.js">
+    <entry file="file://$PROJECT_DIR$/controller/tweets.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="21">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/tweet.js">
+    <entry file="file://$PROJECT_DIR$/controller/coin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/firebase/tweets.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="54" lean-forward="false" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/firebase/allcoins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="58" lean-forward="false" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        <state relative-caret-position="294">
+          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/tweets.js">
+    <entry file="file://$PROJECT_DIR$/controller/coins.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="105">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/firebase/uniquecoins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/firebase/tweets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/tweet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/moveUpdatedTweets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="72" lean-forward="false" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="50" column="32" lean-forward="false" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+        <state relative-caret-position="169">
+          <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/firebase/allcoins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqlitedb/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>

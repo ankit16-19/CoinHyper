@@ -7,6 +7,7 @@ let coin = require('../controller/coin');
 let uniqueCoins = require('../controller/firebase/uniquecoins');
 let firebaseAllCoins  = require('../controller/firebase/allcoins');
 let firebaseTweets = require('../controller/firebase/tweets');
+let moveTweets =  require('../controller/moveUpdatedTweets');
 
 
 // API Endpoints
@@ -47,10 +48,21 @@ module.exports = function(app) {
     });
     // update all coins and uniquecoins tweet to firebase
     app.get('/update' , function (req, res) {
+        let db = sqldb();
         // All coins update to firebase
-        firebaseAllCoins(sqldb);
+        // firebaseAllCoins(sqldb);
         // update uniquecoins tweets to firebase;
-        firebaseTweets(sqldb);
-        res.send("updated");
+        firebaseTweets(db, function () {
+            moveTweets(db,function () {
+                // closing database connection
+                db.close((err) => {
+                    if (err) {
+                        return console.error(err.message);
+                    }
+                    console.log('Close the database connection:tweets.');
+                    res.send("updated");
+                });
+            })
+        });
     })
 };

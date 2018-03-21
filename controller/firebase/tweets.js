@@ -2,13 +2,19 @@ let db = require('./firebase.js').db();
 let uniquecoins = require('./uniquecoins');
 let tweet = require('../tweet');
 
-module.exports = function (sqldb) {
+module.exports = function (sqldb,callback) {
     // All unique coins
+    console.log('Requesting Unique Coins');
     uniquecoins(function(coins) {
+        let lastCoin = coins[coins.length - 1];
+        console.log('Unique Coins Request complete');
         coins.forEach(coin => {
+            console.log('process for each coin started');
             // Tweets of unique coin
             tweet(sqldb, coin, function (tweets) {
+                console.log('getting tweets for the coin');
                 if(tweets){
+                    let lastTweet = tweets[tweets.length - 1];
                     tweets.forEach(tweet => {
                         if(tweet){
                             // split by '/'
@@ -31,7 +37,18 @@ module.exports = function (sqldb) {
                                 {
                                     merge: true
                                 }
-                            )
+                            );
+                            // updating sqldb
+                          sqldb.serialize(function() {
+                                // changing status to True for the coins that are updated on firebase
+                                sqldb.run(`UPDATE latest_tweets SET status='True'  WHERE url = '${tweet.url}'`,function () {
+                                    if(coin ===lastCoin && tweet.coin_symbol === lastTweet.coin_symbol){
+                                        console.info('firebase update complete');
+                                        callback()
+                                    }
+                                });
+                          });
+
                         }else{
                             console.log('tweet empty for ',coin)
                         }
@@ -40,6 +57,6 @@ module.exports = function (sqldb) {
                     console.log('tweet for coin', coin, 'not found');
                 }
             })
-        })
+        });
     });
 };
