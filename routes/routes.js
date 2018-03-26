@@ -24,13 +24,17 @@ module.exports = function(app) {
     });
     // Tweet data
     app.get('/tweets/:coin_symbol', function (req,res) {
-        tweet(sqldb, req.params.coin_symbol, function (tweet) {
+let db = sqldb();
+        tweet(db, req.params.coin_symbol, function (tweet) {
+db.close();
             res.json(tweet);
         })
     });
     //All Coins
     app.get('/coins',  function (req, res) {
-        coins(sqldb, function (coins) {
+let db = sqldb();
+        coins(db, function (coins) {
+	db.close();
             res.json(coins)
         })
     });

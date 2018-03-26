@@ -7,6 +7,7 @@ module.exports = function (sqldb, coin,callback) {
             if (err) {
                 return console.error(err.message);
             }
+	
             return row
                 ? callback(row)
                 : console.log(`No Data found`);

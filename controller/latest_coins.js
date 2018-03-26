@@ -1,7 +1,7 @@
 module.exports = function (db, callback) {
     // starting database connection
     // All coins info which are not updated on firebase
-    let sql = `SELECT * FROM tweets_timestamp`;
+    let sql = `SELECT * FROM tweets_timestamp WHERE status IS NULL`;
     db.serialize(function() {
         db.all(sql, (err, row) => {
             if (err) {
@@ -14,3 +14,4 @@ module.exports = function (db, callback) {
     });
 
 };
+

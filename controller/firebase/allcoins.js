@@ -1,5 +1,5 @@
 let db = require('./firebase.js').db();
-let coins = require('../coins');
+let coins = require('../latest_coins');
 
 module.exports = function(sqlitedb) {
     // All coins
