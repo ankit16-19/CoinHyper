@@ -1,16 +1,17 @@
-let db = require('./firebase.js').db();
- let coins = db.collection('UniqueCoins')
+let realdb = require('./firebase').realdb();
+ let coins = realdb.ref("UniqueCoins");
 
 module.exports = function(callback) {
-    coins.get()
+    coins.once('value')
         .then(snapshot => {
             let data = [];
             snapshot.forEach(doc => {
-                data.push(doc.data().coin_symbol)
+                data.push(doc.key)
             });
             callback(data)
         })
         .catch(err => {
             console.log('Error getting documents', err);
         });
-}
+};
+

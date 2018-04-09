@@ -6,8 +6,10 @@ let coinpanda = firebase_admin.initializeApp({
     databaseURL: "https://coinpanda-fb1f8.firebaseio.com"
 });
 database = firebase_admin.firestore;
+realdatabase = firebase_admin.database;
 
 module.exports = {
     admin : firebase_admin,
-    db : database
+    db : database,
+    realdb : realdatabase
 }
