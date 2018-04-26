@@ -2,6 +2,7 @@
 let sqldb = require('../sqlitedb/db');
 let tweets = require('../controller/tweets');
 let tweet = require('../controller/tweet');
+let apitweet = require('../controller/apitweet');
 let coins = require('../controller/coins');
 let coin = require('../controller/coin');
 let uniqueCoins = require('../controller/firebase/uniquecoins');
@@ -25,7 +26,7 @@ module.exports = function(app) {
     // Tweet data
     app.get('/tweets/:coin_symbol', function (req,res) {
 let db = sqldb();
-        tweet(db, req.params.coin_symbol, function (tweet) {
+        apitweet(db, req.params.coin_symbol, function (tweet) {
 db.close();
             res.json(tweet);
         })
@@ -54,6 +55,7 @@ let db = sqldb();
     app.get('/update' , function (req, res) {
         let db = sqldb();
         // All coins update to firebase
+console.log("getting all coins from firebase");
         firebaseAllCoins(db);
         // update uniquecoins tweets to firebase;
         firebaseTweets(db, function () {
