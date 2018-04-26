@@ -1,7 +1,7 @@
 module.exports = function (sqldb, callback) {
     let db = sqldb(); // starting database connection
     let data = {tweets:[]};
-    let sql = `SELECT * FROM latest_tweets`; // All tweets
+    let sql = `SELECT * FROM latest_tweets UNION SELECT * from all_tweets ORDER BY date`; // All tweets
     db.serialize(function() {
         db.each(sql , (err, row) => {
             if (err) {

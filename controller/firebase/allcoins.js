@@ -14,6 +14,7 @@ module.exports = function(sqlitedb) {
 
             // update firebase
             db.collection('AllCoins').doc(coin.coin_symbol).set({
+                coin_name:coin.coin_name,
                 coin_symbol: coin.coin_symbol,
                 coinPage: coin.coin_handle,
                 lastUpdate: new Date(coin.date),
