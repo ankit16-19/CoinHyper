@@ -13,13 +13,14 @@ let moveTweets =  require('../controller/moveUpdatedTweets');
 
 // API Endpoints
 module.exports = function(app) {
+
     app.get('/', function(req, res) {
         res.send("Hello")
     });
     // ALL Tweets
     app.get('/tweets', function (req, res) {
         tweets(sqldb,function (t) {
-            t.tweets.reverse();
+   //         t.tweets.reverse();
             res.json(t)
         })
     });
