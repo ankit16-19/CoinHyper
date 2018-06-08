@@ -1,8 +1,8 @@
 let db = require('./firebase.js').db();
 let uniquecoins = require('./uniquecoins');
-let tweet = require('../tweet');
+let newtweet = require('../new_tweet');
 
-module.exports = function (sqldb,callback) {
+module.exports = function (con,callback) {
     // All unique coins
     console.log('Requesting Unique Coins');
     uniquecoins(function(coins) {
@@ -10,7 +10,7 @@ module.exports = function (sqldb,callback) {
         console.log('Unique Coins Request complete');
         coins.forEach(coin => {
             // Tweets of unique coin
-            tweet(sqldb, coin, function (tweets) {
+            newtweet(con, coin, function (tweets) {
                 let lastTweet = tweets[tweets.length - 1];
                 console.log('getting tweets for the ',coin);
                 if(!(tweets.length === 0)){
@@ -38,15 +38,12 @@ module.exports = function (sqldb,callback) {
                                 }
                             );
                             // updating sqldb
-                          sqldb.serialize(function() {
-                                // changing status to True for the coins that are updated on firebase
-                                sqldb.run(`UPDATE latest_tweets SET status='True'  WHERE url = '${tweet.url}'`,function () {
-                                    if(coin ===lastCoin && tweet.url === lastTweet.url){
-                                        console.info('firebase update complete');
-                                        callback()
-                                    }
-                                });
-                          });
+                            con.query(`UPDATE latest_tweets SET status='True'  WHERE url = '${tweet.url}'`,function  (error, results, fields) {
+                                if(coin ===lastCoin && tweet.url === lastTweet.url){
+                                    console.info('firebase update complete');
+                                    callback()
+                                 }
+                            })
 
                         }else{
                             console.log('tweet empty for ',coin);

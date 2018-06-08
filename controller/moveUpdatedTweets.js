@@ -1,16 +1,13 @@
-module.exports = function (db,callback) {
+module.exports = function (con,callback) {
 
     console.log("Moving updated tweets to all_tweets table");
     // Moved tweets that are updated on firebae to all_tweets table
-    let sql = `INSERT INTO all_tweets SELECT * FROM latest_tweets WHERE status='True'` ;
-    let sqldel = `DELETE FROM latest_tweets  WHERE status='True'`;
-    db.serialize(function() {
-        db.run(sql);
-        db.run(sqldel, function () {
-            console.info('Moving updated coins to all_tweets complete');
-            callback();
+    let sql = `INSERT INTO filtered_tweets SELECT * FROM unfiltered_tweets WHERE status='True'` ;
+    let sqldel = `DELETE FROM unfiltered_tweets  WHERE status='True'`;
+
+    con.query(sql, function  (error, results, fields) {
+        con.query(sqldel, function  (error, reuslts, fields) {
+            callback()
         })
-
-    });
-
+    })
 };

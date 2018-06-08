@@ -1,7 +1,7 @@
 // Modules
-let sqldb = require('../sqlitedb/db');
+let sqldb = require('../sqldb/db');
 let tweets = require('../controller/tweets');
-let tweet = require('../controller/tweet');
+let tweet = require('../controller/new_tweet');
 let apitweet = require('../controller/apitweet');
 let coins = require('../controller/coins');
 let coin = require('../controller/coin');
@@ -19,32 +19,43 @@ module.exports = function(app) {
     });
     // ALL Tweets
     app.get('/tweets', function (req, res) {
-        tweets(sqldb,function (t) {
-   //         t.tweets.reverse();
-            res.json(t)
+        sqldb.getConnection(function  (err,con) {
+            tweets(con,function (t) {
+                t.tweets.reverse();
+                res.json(t)
+                con.release();
+            })
         })
     });
     // Tweet data
     app.get('/tweets/:coin_symbol', function (req,res) {
-let db = sqldb();
-        apitweet(db, req.params.coin_symbol, function (tweet) {
-db.close();
-            res.json(tweet);
+        sqldb.getConnection(function  (err, con) {
+            apitweet(con, req.params.coin_symbol, function (t) {
+                t.tweets.reverse();
+                res.json(t);
+                con.release();
+            })
         })
+
     });
     //All Coins
     app.get('/coins',  function (req, res) {
-let db = sqldb();
-        coins(db, function (coins) {
-	db.close();
-            res.json(coins)
+        sqldb.getConnection(function (err, con){
+             coins(con, function (coins) {
+                res.json(coins)
+                con.release();
+            })           
         })
+
     });
     // Coin data
     app.get('/coins/:coin_symbol', function (req,res) {
-        coin(sqldb, req.params.coin_symbol, function (coin) {
-            res.json(coin);
-        })
+        sqldb.getConnection(function (err, con){
+            coin(con, req.params.coin_symbol, function (coin) {
+                res.json(coin);
+                con.release();
+            })
+        })    
     });
     // Unique Coins from firebase
     app.get('/uniquecoins', function (req, res) {
@@ -54,33 +65,24 @@ let db = sqldb();
     });
     // update all coins and uniquecoins tweet to firebase
     app.get('/update' , function (req, res) {
-        let db = sqldb();
-        // All coins update to firebase
-console.log("getting all coins from firebase");
-        firebaseAllCoins(db);
-        // update uniquecoins tweets to firebase;
-        firebaseTweets(db, function () {
-            // closing database connection
-            db.close((err) => {
-                if (err) {
-                    return console.error(err.message);
-                }
-                console.log('Close the database connection:tweets.');
+        sqldb.getConnection(function  (err, con) {
+            // All coins update to firebase's all coins
+            firebaseAllCoins(con);
+            // update uniquecoin's tweets to firebase;
+            firebaseTweets(con, function () {
+                // closing database connection
                 res.send("updated");
-            });
-        });
-    });
-    app.get('/move', function (req, res) {
-        let db = sqldb()
-        moveTweets(db,function () {
-            // closing database connection
-            db.close((err) => {
-                if (err) {
-                    return console.error(err.message);
-                }
-                console.log('Close the database connection:move.');
-                res.send("moved");
+                con.release();
             });
         })
+    });
+    app.get('/move', function (req, res) {
+        sqldb.getConnection(function  (err, con) {
+            moveTweets(con,function () {
+                res.send("moved");
+                con.release();
+            })
+        });    
     })
+
 };

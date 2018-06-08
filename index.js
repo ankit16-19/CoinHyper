@@ -4,10 +4,11 @@ let express    = require('express');        // call express
 let app        = express();                 // define our app using express
 let bodyParser = require('body-parser');
 const morgan = require('morgan'); // Request logger
+let mysql = require('mysql');
 
 // Modules
 let router = require('./routes/routes');
-
+let db = require('./sqldb/db');
 // configure app to use bodyParser()
 // this will let us get the data from a POST
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -32,7 +33,7 @@ app.use(function (req, res, next) {
 });
 
 let port = process.env.PORT || 16192;        // set our port
-
+console.log('before router')
 //Router
 router(app);
 
