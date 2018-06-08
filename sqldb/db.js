@@ -7,6 +7,7 @@ var pool = mysql.createPool({
         user     : 'root',
         password : '',
         database : 'cryptov1',
+        charset : 'utf8mb4'
     });
 
 exports.getConnection = function(callback) {
