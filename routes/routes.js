@@ -78,8 +78,8 @@ module.exports = function(app) {
     });
     app.get('/move', function (req, res) {
         sqldb.getConnection(function  (err, con) {
-            moveTweets(con,function () {
-                res.send("moved");
+            moveTweets(con,function (data) {
+                res.send(data);
                 con.release();
             })
         });    
