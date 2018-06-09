@@ -38,7 +38,7 @@ module.exports = function (con,callback) {
                                 }
                             );
                             // updating sqldb
-                            con.query(`UPDATE latest_tweets SET status='True'  WHERE url = '${tweet.url}'`,function  (error, results, fields) {
+                            con.query(`UPDATE unfiltered_tweets SET status='True'  WHERE url = '${tweet.url}'`,function  (error, results, fields) {
                                 if(coin ===lastCoin && tweet.url === lastTweet.url){
                                     console.info('firebase update complete');
                                     callback()
