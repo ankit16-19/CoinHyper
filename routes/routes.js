@@ -21,7 +21,7 @@ module.exports = function(app) {
     app.get('/tweets', function (req, res) {
         sqldb.getConnection(function  (err,con) {
             tweets(con,function (t) {
-                t.tweets.reverse();
+ //               t.tweets.reverse();
                 res.json(t)
                 con.release();
             })
@@ -31,7 +31,7 @@ module.exports = function(app) {
     app.get('/tweets/:coin_symbol', function (req,res) {
         sqldb.getConnection(function  (err, con) {
             apitweet(con, req.params.coin_symbol, function (t) {
-                t.tweets.reverse();
+  //              t.tweets.reverse();
                 res.json(t);
                 con.release();
             })

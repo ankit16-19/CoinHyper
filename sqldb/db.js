@@ -5,9 +5,10 @@ var pool = mysql.createPool({
         host     : 'localhost',
         port     :  3306,
         user     : 'root',
-        password : '',
+        password : 'admin@123',
         database : 'cryptov1',
-        charset : 'utf8mb4'
+        charset : 'utf8mb4',
+	dateStrings: true
     });
 
 exports.getConnection = function(callback) {
