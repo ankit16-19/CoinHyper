@@ -41,7 +41,7 @@ module.exports = function (con,callback) {
                             con.query(`UPDATE unfiltered_tweets SET status='True'  WHERE url = '${tweet.url}'`,function  (error, results, fields) {
                                 if(coin ===lastCoin && tweet.url === lastTweet.url){
                                     console.info('firebase update complete');
-                                    callback()
+                                    callback(results)
                                  }
                             })
 

@@ -31,7 +31,7 @@ module.exports = function(app) {
     app.get('/tweets/:coin_symbol', function (req,res) {
         sqldb.getConnection(function  (err, con) {
             apitweet(con, req.params.coin_symbol, function (t) {
-  //              t.tweets.reverse();
+                t.tweets.reverse();
                 res.json(t);
                 con.release();
             })
@@ -69,9 +69,9 @@ module.exports = function(app) {
             // All coins update to firebase's all coins
             firebaseAllCoins(con);
             // update uniquecoin's tweets to firebase;
-            firebaseTweets(con, function () {
+            firebaseTweets(con, function (data) {
                 // closing database connection
-                res.send("updated");
+                res.send(data);
                 con.release();
             });
         })
