@@ -1,5 +1,7 @@
 // Modules
 let sqldb = require('../sqldb/db');
+let ico_coins = require('../controller/ico/ico_coins')
+let pinned_messages = require('../controller/ico/pinned_messages')
 let tweets = require('../controller/tweets');
 let tweet = require('../controller/new_tweet');
 let apitweet = require('../controller/apitweet');
@@ -17,6 +19,22 @@ module.exports = function(app) {
     app.get('/', function(req, res) {
         res.send("Hello")
     });
+    app.get('/ico', function(req, res) {
+        sqldb.getConnection(function (err, con){
+            ico_coins(con, function(data){
+                res.send(data);
+                con.release()
+            })
+        })
+    })
+    app.get('/ico/pinned', function(req ,res) {
+        sqldb.getConnection(function (err, con){
+            pinned_messages(con, function(data){
+                res.send(data);
+                con.release()
+            })
+        })
+    })
     // ALL Tweets
     app.get('/tweets', function (req, res) {
         sqldb.getConnection(function  (err,con) {
