@@ -31,7 +31,7 @@ app.use(function (req, res, next) {
     // Pass to next layer of middleware
     next();
 });
-
+app.use("/", express.static("/root/website/cryptohype.github.io"))
 let port = process.env.PORT || 16192;        // set our port
 console.log('before router')
 //Router

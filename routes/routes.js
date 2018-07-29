@@ -16,9 +16,9 @@ let moveTweets =  require('../controller/moveUpdatedTweets');
 // API Endpoints
 module.exports = function(app) {
 
-    app.get('/', function(req, res) {
-        res.send("Hello")
-    });
+   // app.get('/', function(req, res) {
+     //   res.sendFile("/root/website/cryptohype.github.io/index.html")
+   // });
     app.get('/ico', function(req, res) {
         sqldb.getConnection(function (err, con){
             ico_coins(con, function(data){
@@ -100,6 +100,11 @@ module.exports = function(app) {
                 res.send(data);
                 con.release();
             })
+        });    
+    })
+
+   app.get('/blog', function (req, res) {
+        	res.redirect('http://localhost:2368');
         });    
     })
 
